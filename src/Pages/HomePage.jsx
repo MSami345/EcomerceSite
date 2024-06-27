@@ -27,6 +27,7 @@ const HomePage = () => {
 
     fetchCategories();
   }, []);
+  
 
   return (
     <div className="homepage">

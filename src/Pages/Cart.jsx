@@ -40,6 +40,7 @@ function Cart() {
       <div className="cart-container">
         {/* <h2 className="cart-title">Shopping Cart</h2> */}
         <ul className="cart-items">
+          {cartItems.length===0 && <p>No Items in the cart</p>}
           {cartItems.map((item) => (
             <li key={item.id} className="cart-item">
               <div className="cart-item-image">
